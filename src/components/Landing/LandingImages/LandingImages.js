@@ -30,7 +30,6 @@ export const LandingImages = () => {
       infinite={true}
       autoPlay={true}
       autoPlaySpeed={4000}
-      centerMode={true}
       minimumTouchDrag={50}
     >
       <S.ImageBlock>
