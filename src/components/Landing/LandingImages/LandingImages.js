@@ -26,6 +26,8 @@ export const LandingImages = () => {
   return (
     // <S.ImagesMainBLock>
     <Carousel
+      swipeable={true}
+      draggable={false}
       responsive={responsive}
       infinite={true}
       autoPlay={true}
