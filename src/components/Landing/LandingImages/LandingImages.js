@@ -6,7 +6,6 @@ import "react-multi-carousel/lib/styles.css";
 export const LandingImages = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -26,7 +25,14 @@ export const LandingImages = () => {
 
   return (
     // <S.ImagesMainBLock>
-    <Carousel responsive={responsive}>
+    <Carousel
+      responsive={responsive}
+      infinite={true}
+      autoPlay={true}
+      autoPlaySpeed={4000}
+      centerMode={true}
+      minimumTouchDrag={50}
+    >
       <S.ImageBlock>
         <S.Image src={TimeImage} />
       </S.ImageBlock>
