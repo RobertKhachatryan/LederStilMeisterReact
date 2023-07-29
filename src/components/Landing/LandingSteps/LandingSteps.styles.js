@@ -10,7 +10,13 @@ export const StepBlock = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
+  @media (min-width: 768px) {
+    margin-bottom: 90px;
+  }
+  @media (min-width: 1280px) {
+    margin-bottom: 120px;
+  }
 `;
 
 export const StepNumber = styled.p`

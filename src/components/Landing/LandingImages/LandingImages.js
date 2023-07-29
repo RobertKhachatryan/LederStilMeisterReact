@@ -1,9 +1,32 @@
 import React from "react";
 import * as S from "./LandingImages.styles";
 import TimeImage from "../../../images/time.jpeg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 export const LandingImages = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
   return (
-    <S.ImagesMainBLock>
+    // <S.ImagesMainBLock>
+    <Carousel responsive={responsive}>
       <S.ImageBlock>
         <S.Image src={TimeImage} />
       </S.ImageBlock>
@@ -22,6 +45,7 @@ export const LandingImages = () => {
       <S.ImageBlock>
         <S.Image src={TimeImage} />
       </S.ImageBlock>
-    </S.ImagesMainBLock>
+    </Carousel>
+    // </S.ImagesMainBLock>
   );
 };

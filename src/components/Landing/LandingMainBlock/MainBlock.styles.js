@@ -7,10 +7,12 @@ export const Main = styled.div`
   align-items: center;
   padding: 0px 60px;
   margin-top: 50px;
+  margin-bottom: 80px;
   flex-direction: column;
   @media (min-width: 768px) {
     padding: 0px 100px;
     flex-direction: row;
+    margin-bottom: 100px;
   }
 `;
 
