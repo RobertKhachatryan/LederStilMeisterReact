@@ -7,7 +7,7 @@ import translationAM from "./locales/am.json";
 
 i18n.use(initReactI18next).init({
   lng: "en",
-  fallbackLng: "en",
+  fallbackLng: "am",
   resources: {
     am: {
       translation: translationAM,

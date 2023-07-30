@@ -19,3 +19,13 @@ export const Image = styled.img`
   margin: 0;
   padding: 5px;
 `;
+
+export const Title = styled.p`
+  margin: 0;
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  color: #654321;
+  font-weight: bold;
+  margin-bottom: 30px;
+`;
