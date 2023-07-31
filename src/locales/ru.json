@@ -1,6 +1,9 @@
 {
+    "MainBlock":{
+        "Subtitle":"Армянские кожаные изделия ручной работы"
+     },
     "LandingImages":{
-        "ourProducts":"Наши продукты"
+        "ImagesTitle":"Most popular"
     }
     
   }

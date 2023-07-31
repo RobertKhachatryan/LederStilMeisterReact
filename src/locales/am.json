@@ -1,6 +1,9 @@
 {
+    "MainBlock":{
+        "Subtitle":"Haykakan Tashal xusht"
+     },
     "LandingImages":{
-        "ourProducts":"Mer apranqnery"
+        "ImagesTitle":"Most popular"
     }
     
   }

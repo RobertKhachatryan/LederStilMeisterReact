@@ -14,10 +14,11 @@ export const InfoBlock = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   @media (min-width: 1100px) {
     font-size: 80px;
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     /* flex-direction: row; */
@@ -25,22 +26,24 @@ export const InfoBlock = styled.div`
 `;
 
 export const MainText = styled.h2`
-  width: 50%;
-  font-size: 32px;
+  width: auto;
+  font-size: 24px;
   font-weight: bold;
   color: #654321;
   margin: 0;
+  margin-bottom: 10px;
+  text-align: "center";
   @media (min-width: 768px) {
     font-size: 60px;
   }
-  @media (min-width: 1280px) {
+  /* @media (min-width: 1280px) {
     font-size: 85px;
-  }
+  } */
 `;
 
 export const Description = styled.p`
   font-size: 18px;
-  width: 50%;
+  /* width: auto; */
   margin: 0;
   @media (min-width: 768px) {
     font-size: 24px;

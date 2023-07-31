@@ -6,7 +6,7 @@ export const Main = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0px 60px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 80px;
   flex-direction: column;
   @media (min-width: 768px) {
@@ -16,16 +16,30 @@ export const Main = styled.div`
   }
 `;
 
+export const TitlesBLock = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 export const MainTitle = styled.h1`
   color: #654321;
   font-size: 65px;
   cursor: default;
+  margin: 0;
   @media (min-width: 768px) {
     font-size: 80px;
   }
   @media (min-width: 1280px) {
     font-size: 124px;
   }
+`;
+
+export const MainSubtitle = styled.p`
+  margin: 0;
+  color: #808000;
+  font-size: 24px;
+  font-weight: bold;
 `;
 export const Image = styled.img`
   margin: 0;

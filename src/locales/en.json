@@ -1,6 +1,9 @@
 {
+    "MainBlock":{
+       "Subtitle":"Armenian handmade leather wares"
+    },
     "LandingImages":{
-        "ourProducts":"Our Products"
+        "ImagesTitle":"Most popular"
     }
     
   }

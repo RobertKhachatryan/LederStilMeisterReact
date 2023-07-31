@@ -1,3 +1,4 @@
+
 .list {
   display: grid;
   margin: 0;
@@ -11,6 +12,7 @@
   );
   margin-bottom: var(--size-gap);
   margin-top: var(--size-gap);
+ 
 }
 
 .listItem {

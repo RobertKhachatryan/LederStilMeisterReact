@@ -3,6 +3,9 @@ import { styled } from "styled-components";
 export const Main = styled.div`
   /* padding: 0px 300px; */
   margin-top: 100px;
+  :nth-child(even) {
+    flex-direction: row-reverse;
+  }
 `;
 
 export const StepBlock = styled.div`
@@ -11,11 +14,13 @@ export const StepBlock = styled.div`
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
+  background-color: #c3b091;
+
   @media (min-width: 768px) {
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
   }
   @media (min-width: 1280px) {
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
   }
 `;
 

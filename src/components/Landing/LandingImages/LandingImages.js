@@ -30,7 +30,7 @@ export const LandingImages = () => {
   return (
     // <S.ImagesMainBLock>
     <>
-      <S.Title>{t("LandingImages.ourProducts")}</S.Title>
+      <S.Title>{t("LandingImages.ImagesTitle")}</S.Title>
       <Carousel
         swipeable={true}
         draggable={false}

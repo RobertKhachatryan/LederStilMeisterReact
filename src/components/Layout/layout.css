@@ -24,6 +24,7 @@
   /* --size-content: 100rem; */
   /* --size-gutter: var(--space-5); */
   --size-gap: var(--space-6);
+  background-color: #F3EDE7;
 }
 html {
   -webkit-text-size-adjust: 100%;
